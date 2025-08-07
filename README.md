@@ -108,8 +108,6 @@ python generate.py \
     --n_augmentations_per_mask 1 \
     --batch_size_per_inference 1 
 ```
-You can find our pretrained ControlNet when downloading our model weights (see above) at `Weights/ControlNet`. 
-
 
 
 
