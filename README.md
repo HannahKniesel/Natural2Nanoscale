@@ -77,7 +77,7 @@ The real images originate from Dataset 1 of Devan et al [2]. The data can be fou
 
 ## Train ControlNet
 You will need to download the initial sd1.5 checkpoint. There are two options to do this:
-1.  You can download `v1-5-pruned.ckpt` from [here](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/tree/main) and move it to the `models` directory. Then run `python tool_add_control.py ./models/v1-5-pruned.ckpt ./models/control_sd15_ini.ckpt` to prepare the checkpoint for the controlnet architecture.
+1.  You can download `v1-5-pruned.ckpt` from [here](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/tree/main) and `cldm_v15.yaml` from [here](https://github.com/lllyasviel/ControlNet/tree/main/models) and move it to the `models` directory. Then run `python tool_add_control.py ./models/v1-5-pruned.ckpt ./models/control_sd15_ini.ckpt` to prepare the checkpoint for the controlnet architecture.
 
 2. Otherwise, when you download our controlnet model weights (see above), you can use the checkpoint at `ControlNet-Weights/control_sd15_ini.ckpt`.
 
